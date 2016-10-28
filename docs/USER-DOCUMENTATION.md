@@ -3,6 +3,15 @@ Etcher User Documentation
 
 This document contains how-tos and FAQs oriented to Etcher users.
 
+Why is my drive not bootable?
+-----------------------------
+
+Etcher copies images to drives byte by byte, without doing any transformation
+to the final device, which means images that require special treatment to be
+made bootable, like Windows images, will not work out of the box. In these
+cases, the general advice is to use tooling specific to those kind of images,
+usually available from the image publishers themselves.
+
 Deactivate desktop shortcut prompt on GNU/Linux
 -----------------------------------------------
 
